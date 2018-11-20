@@ -1,0 +1,21 @@
+<clientConfig>
+    <emailProvider id="al.em-net.ne.jp">
+        <domain>al.em-net.ne.jp</domain>
+        <displayName>e-mansion</displayName>
+        <displayShortName>e-mansion</displayShortName>
+        <incomingServer type="pop3">
+            <hostname>pop.al.em-net.ne.jp</hostname>
+            <port>995</port>
+            <socketType>SSL</socketType>
+            <username>%EMAILLOCALPART%-al</username>
+            <authentication>password-cleartext</authentication>
+        </incomingServer>
+        <outgoingServer type="smtp">
+            <hostname>smtp.al.em-net.ne.jp</hostname>
+            <port>465</port>
+            <socketType>SSL</socketType>
+            <username>%EMAILLOCALPART%-al</username>
+            <authentication>password-cleartext</authentication>
+        </outgoingServer>
+    </emailProvider>
+</clientConfig>
