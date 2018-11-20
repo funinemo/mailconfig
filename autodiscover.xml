@@ -6,9 +6,9 @@
             <Action>settings</Action>
             <Protocol>
                 <Type>POP3</Type>
-                <Server>pop.{{.subdomain}}.em-net.ne.jp</Server>
+                <Server>pop.{{.Subdomain}}.em-net.ne.jp</Server>
                 <Port>995</Port>
-                <LoginName>{{.localpart}}-{{.subdomain}}</LoginName>
+                <LoginName>{{.Localpart}}-{{.Subdomain}}</LoginName>
                 <DomainRequired>off</DomainRequired>
                 <SPA>off</SPA>
                 <SSL>on</SSL>
@@ -16,7 +16,7 @@
             </Protocol>
             <Protocol>
                 <Type>SMTP</Type>
-                <Server>smtp.{{.subdomain}}.em-net.ne.jp</Server>
+                <Server>smtp.{{.Subdomain}}.em-net.ne.jp</Server>
                 <Port>465</Port>
                 <DomainRequired>off</DomainRequired>
                 <SPA>off</SPA>
